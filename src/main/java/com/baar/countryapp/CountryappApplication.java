@@ -8,6 +8,8 @@ public class CountryappApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(CountryappApplication.class, args);
+
+    System.out.println("Hello World!");
 	}
 
 }

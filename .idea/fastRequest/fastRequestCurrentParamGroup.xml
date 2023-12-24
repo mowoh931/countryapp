@@ -5,8 +5,8 @@
     <option name="filePath" value="" />
     <option name="method" value="getAllCountries" />
     <option name="module" value="countryapp" />
-    <option name="originUrl" value="/api/countries/get/all" />
+    <option name="originUrl" value="/get/all" />
     <option name="returnDocument" value="{&quot;status&quot;:{},&quot;headers&quot;:{},&quot;body&quot;:{}}" />
-    <option name="url" value="/api/countries/get/all" />
+    <option name="url" value="/get/all" />
   </component>
 </project>

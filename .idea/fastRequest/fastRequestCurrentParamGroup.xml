@@ -1,21 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-    <component name="fastRequestCurrentParamGroup">
-        <option name="className" value="com.baar.countryapp.controller.CountryController"/>
-        <option name="filePath" value=""/>
-        <option name="method" value="getAllCountry"/>
-        <option name="module" value="countryapp"/>
-        <option name="originUrl" value="/api/countries/get/country/id/{id}"/>
-        <option name="pathParamMap">
-            <map>
-                <entry key="id">
-                    <value>
-                        <Object/>
-                    </value>
-                </entry>
-            </map>
-        </option>
-        <option name="returnDocument" value="{&quot;status&quot;:{},&quot;headers&quot;:{},&quot;body&quot;:{}}"/>
-        <option name="url" value="/api/countries/get/country/id/1"/>
-    </component>
+  <component name="fastRequestCurrentParamGroup">
+    <option name="className" value="com.baar.countryapp.controller.CountryController" />
+    <option name="filePath" value="" />
+    <option name="method" value="greetings" />
+    <option name="module" value="countryapp" />
+    <option name="originUrl" value="/" />
+    <option name="returnDocument" value="{&quot;status&quot;:{},&quot;headers&quot;:{},&quot;body&quot;:{}}" />
+    <option name="url" value="/" />
+  </component>
 </project>

@@ -13,7 +13,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api/countries")
+//@RequestMapping("/api/countries")
+@RequestMapping
 public class CountryController {
 
   private CountryServiceImpl countryServiceImpl;
@@ -21,7 +22,10 @@ public class CountryController {
   public CountryController(CountryServiceImpl countryServiceImpl) {
     this.countryServiceImpl = countryServiceImpl;
   }
-
+  @GetMapping(value = "/", produces = MediaType.APPLICATION_JSON_VALUE)
+  public ResponseEntity<String> greetings() {
+    return new ResponseEntity<>("HELLO WORLD!", HttpStatus.OK);
+  }
   @GetMapping(value = "/get/all", produces = MediaType.APPLICATION_JSON_VALUE)
   public ResponseEntity<List<CountryDto>> getAllCountries() {
     return new ResponseEntity<>(countryServiceImpl.getAllCountries(), HttpStatus.OK);

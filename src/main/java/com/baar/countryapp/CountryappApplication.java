@@ -10,7 +10,6 @@ public class CountryappApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(CountryappApplication.class, args);
 		log.info("Country app running here................");
-    System.out.println("Hello World!");
 	}
 
 }

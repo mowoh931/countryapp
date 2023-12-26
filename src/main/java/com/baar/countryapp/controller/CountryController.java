@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 //@RequestMapping("/api/countries")
-@RequestMapping
+//@RequestMapping
 public class CountryController {
 
   private CountryServiceImpl countryServiceImpl;

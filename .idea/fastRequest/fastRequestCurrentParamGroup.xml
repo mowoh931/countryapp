@@ -3,10 +3,19 @@
   <component name="fastRequestCurrentParamGroup">
     <option name="className" value="com.baar.countryapp.controller.CountryController" />
     <option name="filePath" value="" />
-    <option name="method" value="getAllCountries" />
+    <option name="method" value="getAllCountry" />
     <option name="module" value="countryapp" />
-    <option name="originUrl" value="/get/all" />
+    <option name="originUrl" value="/get/country/id/{id}" />
+    <option name="pathParamMap">
+      <map>
+        <entry key="id">
+          <value>
+            <Object />
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="returnDocument" value="{&quot;status&quot;:{},&quot;headers&quot;:{},&quot;body&quot;:{}}" />
-    <option name="url" value="/get/all" />
+    <option name="url" value="/get/country/id/1" />
   </component>
 </project>

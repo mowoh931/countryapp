@@ -9,6 +9,8 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class CountryDto {  private Integer id;
-    private String name;
-    private String capital;}
+public class CountryDto {
+  private Integer id;
+  private String name;
+  private String capital;
+}
